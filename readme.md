@@ -19,7 +19,8 @@ Framework:
 4. Add a "test.json" file within the "config" folder
 5. Add the next configuration 
 
-    {
+ ```   
+ {
     "baseUrl": "https://www.saucedemo.com/",
     "chromeWebSecurity": false,
     "integrationFolder": "cypress/features",
@@ -30,9 +31,12 @@ Framework:
         "password": "[add the password here]"
     }
   }
+  ```
 
 
-## Running the tests
-   Open VS terminal and run the next command in order to install all dependencies:
-      ### `npm run cy:test`   
+ ## Running the tests
+   Open VS terminal and run the next command in order to install all dependencies: 
+   
+   
+   ### `npm run cy:test`   
 
