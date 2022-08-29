@@ -35,8 +35,10 @@ Framework:
 
 
  ## Running the tests
-   Open VS terminal and run the next command in order to install all dependencies: 
-   
+   Open VS terminal and run the next command in order to open cypress and execute the test: 
    
    ### `npm run cy:test`   
 
+Or Run the next command to execute all test cases in headless mode:
+
+ ### `npm run cy:runtest`   
