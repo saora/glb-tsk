@@ -1,0 +1,13 @@
+node_modules
+screenshots
+results
+.npmrc
+cucumber-json
+junit.xml
+json-results
+mochawesome-report
+mochawesome.json
+cypress.env.json
+config
+test.json
+.vs/

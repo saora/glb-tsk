@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es6", "dom", "es2017"],
+    "types": ["cypress", "node", "cypress-localstorage-commands"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "../node_modules/@shelex/cypress-allure-plugin/reporter",
+    "../../node_modules/cypress",
+    "**/*.ts",
+    "cypress/support/index.ts",
+    "cypress/support/commands.ts",
+
+  ]
+}
